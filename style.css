@@ -1,179 +1,239 @@
 body {
-    margin: 20px;
-}
-#header{
-    position: fixed;
-    top: 0;
-  }
-.top-nav {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
+    margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 100vw;
+    box-sizing: border-box;
 }
-
-ul.top-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(27, 15, 15);
-    min-width: 200px;
-}
-
-
-ul.top-nav li {
-    float: right;
-}
-
-ul.top-nav li a {
-    display: block;
-    text-align: right;
-    padding: 20px 10px 20px 10px;
-    width:100%;
-    text-decoration: none;
-   font-size: 25px;
-}
-
-li a:hover {
-    background: rgb(143, 196, 143);
-    color: white;
-}
-img {
-    width:"50px";
-    height: 50px;
-}
-
-#site {
-    padding: 16px;
-    margin-top: 30px;
-    height: 1500px;
-}
-@media screen and (max-width: 600px) {
-    ul.top-nav li.right,
-    ul.top-nav li {
-        float: none;
-        margin: 1px;
-        min-width: 150px;
-        max-height: 70px;
-        border-color: white;
-        
-    }
-  
-  
-    ul.top-nav a{
-        color:red;
-        background: blue;
-        padding: 0px;
-        margin: 0px;
-        max-height: 15px;
-        top: 0;
-        
-    }
-    li a:hover {
-        background: blue;
-        color: red;
-        border: solid 1px;
-        border-radius: 10px;
-        font-size: 10px;
-    }
-    img {
-        display: none;
-    }
-    label {
-        
-        display: block;
-     
-        text-align: left;
-        min-width: 50px;
-    }
-    input[type="text"] {
-        min-width:150px;
-        max-width: 150px;
-    }
-    input[type="email"] {
-        min-width:150px;
-        max-width: 150px;
-    }
-    fieldset {
-        min-width: 150px;
-        margin: 10px;
-    }
-    #site {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        margin-top: 200px;
-        height: 1500px;
-    }
-    form {
-        text-align: center;
-       
-    }
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px;
+    margin: 7px 40px 0px 10px;
     
 }
-main h2{
-    float: right;
+a[href]{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 29px;
 }
-section{
-    background-color: blueviolet;
+a:after{
+    text-decoration-line: underline ;
+    color: aliceblue;
+    text-shadow: 1cm;
 }
-
-@media screen and (max-width: 600px) {
-
-}
-
-@media screen and (max-width: 300px) {
-    body {
-        background: red;
-    }
-    h2 {
-        font-size: 60px;
-    }
-    p {
-        font-size: 50px;
-    }
-    #site {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        margin-top: 200px;
-        height: 1500px;
-    }
-    #form {
-        border-radius:10px;
-    }
-} 
-
-
-
-main table{
-    font-style: normal;
-}
-
-
-footer{
+.main{
+    height: 555px;
+   width:  100%;
     background-color: black;
-}
-footer form div h3{
-    color: azure;
-    border: 20px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 23px;
 
 }
-footer form div {
-    border: 30px;
+.nav-head {
+    padding: 0px 10px;
+}
+
+.land{
+ 
+  color: white;
+  height: 550px;
+  width: 700px;
+}
+
+.bb{
+    height: 6%;
+    width: 106%;
+    margin-top: 57px;
+    margin-left: 81px;
+}
+ 
+
+.header{
+    background-color: black;
+    height: 35px;
+    /* width: 1200px; */
+    width: 100%;
+    position: fixed;
+    font-family: ;
+    margin-top: -57px;
+    z-index: 2;
+}
+.items{
+  
+    font-family: monospace;
+    font-size: 186px;
+}
+  
+
+.landing{
+   
+    height: 7%;
+    width: 43%;
+    margin-top: 23px;
+    margin-left: 81px
+   
+   
+   
+}
+.page{
+    height: 27%;
+    width: 106%;
+    font-size: 192px;
+    margin-top: 67px;
+    margin-left: 81px;
+}
+.pic {
+    border: 1px sold red;
+    margin: -101px;
+    margin-left: 1059px;
+    width: 100px;
+    margin-top: -307px;
+ 
+ 
+ 
+ 
+ 
+}
+
+.letter{
+     border:1px solid rgb(228, 3, 3);
+     margin left: 255px;
+     margin bottom:20px;
+   }
+   .pi{
+    
+    border: 1px solid rgb(3, 228, 138);
+    height: 463px;
+    width: 350px;
+    margin-left: 141px;
+    /* margin-top: 27px; */
+}
+.para{
+        width: 900px;
+        margin-top: 10px;
+   }
+  
+   .about{
+     
+    width: 100px;
+    margin-left: 576px;
+    /* margin-right: -678px; */
+    margin-bottom: 41px;
+        margin-top: -540px;
+        
+
+  
+}
+   .section{
+    margin-top: 10rem;
+   }
+      
+.aboutus{
+    font-size: 70px;
+    /* margin-top: -64px; */
+    margin-right: -90px; 
+    width: 400px;
+    /* width:100%; */
+}
+ 
+ .ourservice{
+    border: 1px solid white;
+    margin-left: 136px;
+
+    margin-top: 15rem;
+    font-size: 45px;
+    
+ }
+ 
+ .fl{
+    margin-left: 136px;
+    display: flex;
+    gap: 30px;
+ 
+ }
+   
+ .service{
+    border: 1px solid rgb(21, 21, 21);
+    overflow-x: scroll;
+    max-width: 440px;
+    /* margin-left: 20px; */
+ }
+
+ .service:hover{
     background-color: black;
     color: white;
-    animation-name: changecolor;
-    animation-duration: 2s;
+    animation-name: service;
+  animation-delay: .3s;
+ }
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ .paraHeader{
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin-left: 20px;
+    padding-left: 10px;
+    /* align-items: left; */
+ }
+ .paraService{
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin-left: 20px;
+    /* align-items: left; */
+    padding-left: 10px;
+    padding-right: 10px;
+
+ }
+
+ .form{
+    border: 1px solid rgb(210, 26, 26);
+    background-color: black;
+    margin-top: 200px;
+    height:30rem;
+    /* margin-bottom: 500px; */
+
+ }
+ .contact{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+ }
+ 
+ .land{
+    animation: fadeIn 2s;
+ }   
+ 
+ 
+
+ .inputBox{
+    margin-left: 120px;
+    border: 2px solid white;
+    height: 23px;
+    width: 80%;
 }
-@keyframes changecolor{
-    from{
-        background-color: lightblue;
-    }
-    to{
-        background-color: blue;
-    }
-}
+ input{
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+ }
+ input:hover{
+    
+    border: 2px solid blue;
+    
+ }
+ .btn{
+    
+ }
+
+ .btn:hover{
+
+ }
